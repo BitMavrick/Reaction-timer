@@ -13,7 +13,6 @@ export default {
   mounted() {
     setTimeout(() => {
       this.showBlock = true;
-      console.log(this.delay);
     }, this.delay);
   },
   updated() {
